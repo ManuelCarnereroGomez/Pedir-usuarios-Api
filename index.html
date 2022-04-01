@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de usuarios # mockaroo</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css
+    ">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+    <script src="app/main.js"></script>
+</head>
+
+<body>
+
+
+    <h1>Lista de usuarios</h1>
+    <div id="test-list">
+        <div class="filter-bar">
+            <label for="search">Filtrar</label>
+            <input type="text" class="fuzzy-search" id="search" name="search" />
+            <button id="buscar">
+                Buscar 
+            </button>
+        </div>
+        <ul id="usuarios" class="list"></ul>
+    </div>
+
+    <div>
+        <button id="restar">Página 1</button>
+        <button id="sumar">Página 2</button>
+    </div>
+
+</body>
+
+</html>
